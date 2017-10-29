@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Andreas Heider</Authors>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>AdvancedProducer</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>AdvancedProducer</PackageId>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RdKafka\RdKafka.csproj" />
+  </ItemGroup>
+
+</Project>

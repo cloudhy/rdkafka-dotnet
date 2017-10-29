@@ -1,29 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RdKafka", "src\RdKafka\RdKafka.xproj", "{B2DDB635-4423-45D7-B3DC-F701E6010868}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RdKafka.Tests", "test\RdKafka.Tests\RdKafka.Tests.xproj", "{33151BE2-C10B-41BC-8C5E-E55211A1722D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleProducer", "examples\SimpleProducer\SimpleProducer.xproj", "{A7BF0A75-D3E7-4024-8597-5FCCC567D372}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleConsumer", "examples\SimpleConsumer\SimpleConsumer.xproj", "{85F08EF0-9E30-49D3-B86F-DBA36267843C}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56321620-6DE2-44DC-942B-E3701C01EBFE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03D93818-5A54-4913-A5CD-CA0C373CEE05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{5E1F754C-FCE9-4B80-B13D-5F9ACE13305A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RdKafka", "src\RdKafka\RdKafka.csproj", "{B2DDB635-4423-45D7-B3DC-F701E6010868}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Misc", "examples\Misc\Misc.xproj", "{2E6FC09E-2BED-4765-8298-9584E172B6CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RdKafka.Tests", "test\RdKafka.Tests\RdKafka.Tests.csproj", "{33151BE2-C10B-41BC-8C5E-E55211A1722D}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AdvancedConsumer", "examples\AdvancedConsumer\AdvancedConsumer.xproj", "{0A3DD19C-3A80-47DB-83B0-A1EF6078C9EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleProducer", "examples\SimpleProducer\SimpleProducer.csproj", "{A7BF0A75-D3E7-4024-8597-5FCCC567D372}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Benchmark", "examples\Benchmark\Benchmark.xproj", "{9EA27B93-4714-453C-9319-1920945CEB78}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsumer", "examples\SimpleConsumer\SimpleConsumer.csproj", "{85F08EF0-9E30-49D3-B86F-DBA36267843C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Misc", "examples\Misc\Misc.csproj", "{2E6FC09E-2BED-4765-8298-9584E172B6CF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedConsumer", "examples\AdvancedConsumer\AdvancedConsumer.csproj", "{0A3DD19C-3A80-47DB-83B0-A1EF6078C9EE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "examples\Benchmark\Benchmark.csproj", "{9EA27B93-4714-453C-9319-1920945CEB78}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedProducer", "examples\AdvancedProducer\AdvancedProducer.csproj", "{DDCE9F6B-6A9D-4B05-BAD0-E77D6359B1FB}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AdvancedProducer", "examples\AdvancedProducer\AdvancedProducer.xproj", "{DDCE9F6B-6A9D-4B05-BAD0-E77D6359B1FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,8 +76,5 @@ Global
 		{0A3DD19C-3A80-47DB-83B0-A1EF6078C9EE} = {5E1F754C-FCE9-4B80-B13D-5F9ACE13305A}
 		{9EA27B93-4714-453C-9319-1920945CEB78} = {5E1F754C-FCE9-4B80-B13D-5F9ACE13305A}
 		{DDCE9F6B-6A9D-4B05-BAD0-E77D6359B1FB} = {5E1F754C-FCE9-4B80-B13D-5F9ACE13305A}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A2D40869-1D20-4825-823E-F39E1E0C8B03}
 	EndGlobalSection
 EndGlobal
